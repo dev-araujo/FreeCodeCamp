@@ -18,73 +18,80 @@
   <body>
     <main>
       <section class="left">
-        <section class="left__header">
+        <header class="left__header">
           <p>Building A <strong>New</strong></p>
           <h1 id="title">CARRER</h1>
           <p>With Us</p>
-        </section>
-        <article class="left__description">
-          <p id="description">Fill in the form to join our team</p>
-        </article>
+          <article class="left__description">
+            <p id="description">Fill in the form to join our team</p>
+          </article>
+        </header>
 
         <form id="survey-form">
           <section class="left__form">
-            <label id="name-label">Name</label>
-            <input
-              type="text"
-              id="name"
-              placeholder="Your name..."
-              class="rounded"
-              required
-            />
+            <div>
+              <label id="name-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Your name..."
+                class="rounded"
+                required
+              />
+            </div>
           </section>
 
           <section class="left__form">
-            <label id="email-label">Email</label>
-            <input
-              type="email"
-              id="email"
-              placeholder="Your the best email..."
-              required
-            />
+            <div>
+              <label id="email-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Your the best email..."
+                required
+              />
+            </div>
           </section>
 
           <section class="left__form">
-            <label id="number-label">Age</label>
-            <input
-              type="number"
-              id="number"
-              min="18"
-              max="99"
-              placeholder="Your age..."
-            />
+            <div>
+              <label id="number-label">Age</label>
+              <input
+                type="number"
+                id="number"
+                min="18"
+                max="99"
+                placeholder="Your age..."
+              />
+            </div>
           </section>
 
           <section class="left__form">
-            <label>Stack</label>
-            <select class="left__form--options" id="dropdown">
-              <option>You are a dev...</option>
-              <option>Front-end</option>
-              <option>Back-end</option>
-              <option>Fullstack</option>
-            </select>
+            <div>
+              <label>Stack</label>
+              <select class="left__form--options" id="dropdown">
+                <option>You are a dev...</option>
+                <option>Front-end</option>
+                <option>Back-end</option>
+                <option>Fullstack</option>
+              </select>
+            </div>
           </section>
 
           <section id="group-radio">
-            <h3 id="rd">Your best time</h3>
+            <label id="rd" class="left__topics">Your best time</label>
             <p class="left__interview-text">For a interview</p>
-            <div class="left__form--radio-container">
-              <div class="left__form--radio radio1">
-                <input type="radio" name="rd" value="Definitely" /><label
-                  >Morning</label
-                >
+            <div class="left__radios-checks">
+              <div>
+                <input type="radio" name="rd" value="Definitely" />
+                <label>Morning</label>
               </div>
-              <div class="left__form--radio radio2">
+              <div>
                 <input type="radio" name="rd" value="Definitely" /><label
                   >Afternoon</label
                 >
               </div>
-              <div class="left__form--radio radio3">
+              <div>
                 <input type="radio" name="rd" value="Definitely" /><label
                   >Evening</label
                 >
@@ -92,40 +99,50 @@
             </div>
           </section>
 
-          <section class="left__form-checkboxs">
-            <h3>Your know some Framework?</h3>
-            <section class="left__form--check-container">
-              <div class="left__form--check check1">
-                <label>Angular</label>
-                <input type="checkbox" value="option1" />
-              </div>
-              <div class="left__form--check check2">
-                <label>React</label>
-                <input type="checkbox" value="option2" />
-              </div>
-              <div class="left__form--check check3">
-                <label>Vue</label>
-                <input type="checkbox" value="option3" />
+          <section>
+            <label class="left__topics">Your best Framework</label>
+            <section>
+              <div class="left__radios-checks">
+                <div>
+                  <input type="checkbox" value="option1" />
+                  <label>Angular</label>
+                </div>
+                <div>
+                  <input type="checkbox" value="option2" />
+                  <label>React</label>
+                </div>
+                <div>
+                  <input type="checkbox" value="option3" />
+                  <label>Vue</label>
+                </div>
               </div>
             </section>
           </section>
 
           <section class="left__tell-us">
-            <label for="story">Tell us your story:</label>
-            <div>
-              <textarea id="story" name="story" rows="5" cols="33">
-It was a dark and stormy night...
-</textarea
-              >
-            </div>
-          </section>
+            <label for="story" class="left__topics">Tell us your story:</label>
+            <textarea id="story" name="story"> </textarea>
 
-          <section class="submit">
-            <button id="submit" type="submit">Submit</button>
+            <div class="submit">
+              <button id="submit" type="submit">Submit</button>
+            </div>
           </section>
         </form>
       </section>
-      <section class="right"></section>
+
+      <section class="right">
+        <section id="right__opinion">
+          <p class="right__text">
+            "With all my experience, I have never seen such a humane company"
+          </p>
+          <div class="right__info">
+            <div>
+            <h3>ANDI LANE</h3>
+            <p>Front-end developer</p>
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
   </body>
 </html>
