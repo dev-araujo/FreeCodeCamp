@@ -2,14 +2,14 @@
 
 Repositório para os projetos finais do FreeCodeCamp.
 
-**<details><summary>Responsive Web Design</summary>**
+#### _Responsive Web Design_
   
  - [**Technical Documentation Page**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/technical-documentation-page)
  - [**Survey-Form**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/survey-form)
  - [**Tribute Page**](https://github.com/dev-araujo/FreeCodeCamp/blob/main/Responsive-Web-Design/tribute-page/) 
  - [**Personal Portfolio Webpage**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/personal-portfolio-webpage)
  
-</details>
+
 <br/>
 
 <br/>
