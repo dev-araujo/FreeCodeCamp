@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/styles.css" rel="stylesheet" type="text/css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- google font montserrat -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font noto serif -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Documentation</title>
+  </head>
+  <body>
+    <main class="doc">
+      <section class="doc__hamburger">
+        <p onclick="openMenu()">menu</p>
+      </section>
+
+      <nav id="doc-nav" class="doc__nav">
+        <section class="menu">
+          <header class="menu__header">
+            <p onclick="closeMenu()" class="menu__close">close</p>
+          </header>
+          
+          <ul class="menu__sections">
+            <li><a href="#overview">overview</a></li>
+          </ul>
+        </section>
+      </nav>
+
+      <section class="doc__content-container">
+        <section class="content">
+          <h1 class="g-title">Flexbox <i class="g-special">doc.</i></h1>
+        </section>
+      </section>
+    </main>
+
+    <script src="./assets/main.js"></script>
+  </body>
+</html>

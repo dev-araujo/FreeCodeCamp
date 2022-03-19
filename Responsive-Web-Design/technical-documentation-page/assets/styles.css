@@ -1,0 +1,135 @@
+:root {
+  /* colors */
+  --color-white: #ffffff;
+  --color-light-background: #fafafa;
+  --color-selection: #eb9651;
+  --color-text: #312f2e;
+
+  --color-scrollbar-thumb: #e6d7cd86;
+
+  /* font styles*/
+  --font-title: "Montserrat", sans-serif;
+  --font-text: "Roboto", sans-serif;
+  --font-special: "Noto Serif Display", serif;
+}
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-text);
+  color: var(--color-text);
+}
+
+::selection {
+  background: var(--color-selection);
+  color: var(--color-white);
+}
+::-webkit-scrollbar-track {
+  background-color: var(--color-light-background);
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: var(--color-light-background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-scrollbar-thumb);
+}
+.g-title {
+  font-family: var(--font-title);
+  font-size: 2rem;
+}
+.g-special {
+  font-family: "Noto Serif Display", serif;
+  font-size: 1.6rem;
+}
+
+.doc {
+  width: auto;
+  height: 100%;
+
+  display: flex;
+}
+
+/* nav */
+.doc__nav {
+  background-color: var(--color-light-background);
+  width: 25%;
+  height: 100%;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+}
+
+.menu__header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu__close {
+  visibility: hidden;
+}
+
+.doc__hamburger {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: none;
+}
+
+.menu__sections {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* content */
+.doc__content-container {
+  overflow-y: auto;
+  width: 75%;
+  height: 100vh;
+
+  position: fixed;
+  right: 0;
+}
+.content {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  /* nav */
+  .doc__nav {
+    display: none;
+    position: static;
+  }
+
+  .doc__nav--open {
+    background-color: var(--color-light-background);
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    right: 0;
+  }
+  .menu__close {
+    visibility: visible;
+  }
+  /* content */
+  .doc__content-container {
+    width: 100vw;
+    position: inherit;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .doc__hamburger {
+    display: inherit;
+  }
+}
