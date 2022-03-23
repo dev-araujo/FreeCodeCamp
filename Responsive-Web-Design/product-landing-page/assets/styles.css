@@ -5,7 +5,7 @@
   display: flex;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 498px) {
   .container {
     flex-direction: column;
   }
@@ -16,7 +16,7 @@
 
   overflow-y: auto;
 }
-@media (max-width: 420px) {
+@media (max-width: 498px) {
   .left {
     display: none;
   }
@@ -73,7 +73,7 @@
   margin-left: 1rem;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 498px) {
   .overview__description,
   .overview__button-container {
     display: none;
@@ -172,8 +172,8 @@
   background-size: cover;
 }
 
-@media (max-width: 420px) {
-  .right {
+@media (max-width: 498px) {
+  #right {
     width: 100%;
     height: 100%;
   }
@@ -233,7 +233,7 @@
   display: none;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 498px) {
   .btn--mobile {
     display: inherit;
   }
