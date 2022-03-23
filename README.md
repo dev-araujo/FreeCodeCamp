@@ -5,6 +5,7 @@ Repositório para os projetos finais do FreeCodeCamp.
 
 #### _Responsive Web Design_
   
+ - [**Product Landing Page**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/product-landing-page)
  - [**Technical Documentation Page**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/technical-documentation-page)
  - [**Survey-Form**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/survey-form)
  - [**Tribute Page**](https://github.com/dev-araujo/FreeCodeCamp/blob/main/Responsive-Web-Design/tribute-page/) 
