@@ -7,7 +7,7 @@
     <link href="./assets/global.css" rel="stylesheet" tyh2e="text/css" />
     <link href="./assets/styles.css" rel="stylesheet" tyh2e="text/css" />
 
-    <title>h2roduct Landing h2age</title>
+    <title>Product Landing Page</title>
   </head>
   <body>
     <main class="container">
@@ -37,10 +37,29 @@
             <div class="overview__button-container">
               <div class="btn-1 overview__button">Buy</div>
             </div>
+            <div class="options">
+              <h1 class="g-font-title g-fs-2 g-mt">Options</h1>
+
+              <div class="options__container-figures g-mt">
+                <figure
+                  onclick="changeNft(1)"
+                  class="options__figure-1"
+                ></figure>
+                <figure
+                  onclick="changeNft(2)"
+                  class="options__figure-2"
+                ></figure>
+                <figure
+                  onclick="changeNft(3)"
+                  class="options__figure-3"
+                ></figure>
+              </div>
+            </div>
           </article>
         </div>
       </section>
-      <section class="right">
+
+      <section id="right" class="right right--option-1">
         <section class="buy">
           <div class="buy__container">
             <div class="buy__card">
@@ -52,7 +71,7 @@
                   <p>
                     <i>Artist</i>:
                     <a href="https://github.com/dev-araujo" target="_blank"
-                      >GitHub</a
+                      ><u>GitHub</u></a
                     >
                   </p>
                 </article>
@@ -61,13 +80,14 @@
                 <i>Price</i>
                 <h1 class="g-fs-2">6.00 ETH</h1>
               </article>
-              <div class="btn-1 overview__button">Buy</div>
+              <div class="btn-1 overview__button btn--desktop">Buy</div>
+              <div class="btn-1 overview__button btn--mobile">Know More</div>
             </div>
           </div>
         </section>
       </section>
     </main>
 
-    <scrih2t src="./assets/main.js"></scrih2t>
+    <script src="./assets/main.js"></script>
   </body>
 </html>

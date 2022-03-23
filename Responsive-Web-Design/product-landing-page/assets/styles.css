@@ -4,8 +4,22 @@
 
   display: flex;
 }
+
+@media (max-width: 420px) {
+  .container {
+    flex-direction: column;
+  }
+}
 .left {
   width: 65%;
+  height: 100%;
+
+  overflow-y: auto;
+}
+@media (max-width: 420px) {
+  .left {
+    display: none;
+  }
 }
 
 .left__container {
@@ -59,10 +73,70 @@
   margin-left: 1rem;
 }
 
+@media (max-width: 420px) {
+  .overview__description,
+  .overview__button-container {
+    display: none;
+  }
+}
+
+.options__container-figures {
+  width: 100%;
+
+  display: flex;
+}
+
+.options__figure-2,
+.options__figure-3 {
+  margin-left: 4rem;
+}
+
+.options__figure-1,
+.options__figure-2,
+.options__figure-3 {
+  margin-top: -1rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.options__figure-1 {
+  background: url(./images/nft__image.png),
+    linear-gradient(
+      90deg,
+      var(--color-selection) 0%,
+      var(--color-selection-hover) 100%
+    );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.options__figure-2 {
+  background: url(./images/nft__image.png),
+    linear-gradient(
+      180deg,
+      var(--color-option-1) 0%,
+      var(--color-selection-hover) 100%
+    );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.options__figure-3 {
+  background: url(./images/nft__image.png),
+    linear-gradient(
+      180deg,
+      var(--color-option-2) 0%,
+      var(--color-selection-hover) 100%
+    );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /*  */
 
-.right {
+#right {
   width: 35%;
+}
+.right--option-1 {
   background: url(../assets/images/nft__image.png),
     linear-gradient(
       90deg,
@@ -72,6 +146,37 @@
   background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.right--option-2 {
+  background: url(./images/nft__image.png),
+    linear-gradient(
+      180deg,
+      var(--color-option-1) 0%,
+      var(--color-selection-hover) 100%
+    );
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right--option-3 {
+  background: url(./images/nft__image.png),
+    linear-gradient(
+      180deg,
+      var(--color-option-2) 0%,
+      var(--color-selection-hover) 100%
+    );
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 420px) {
+  .right {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .buy__container {
@@ -102,7 +207,6 @@
 .buy__card p {
   font-weight: 600;
   letter-spacing: 1px;
-  
 }
 
 .buy__header {
@@ -118,9 +222,22 @@
   border-radius: 100%;
 }
 
-.buy__price h1{
-  color:var(--color-white);
+.buy__price h1 {
+  color: var(--color-white);
   background-color: var(--color-text);
   border-radius: 10px;
-  padding:0.5rem;
+  padding: 0.5rem;
+}
+
+.btn--mobile {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  .btn--mobile {
+    display: inherit;
+  }
+  .btn--desktop {
+    display: none;
+  }
 }
