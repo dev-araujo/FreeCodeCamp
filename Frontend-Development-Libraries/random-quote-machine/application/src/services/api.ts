@@ -1,12 +1,9 @@
 import axios from "axios";
+import { random } from "../utils/random";
 
 const BASE_URL: string = "https://type.fit/api/quotes";
 
-const randomQuote = (arr: []) => {
-  let randomNumber = Math.floor(Math.random() * arr.length);
 
-  return arr[randomNumber];
-};
 
 export const getData = (set: any) => {
   axios
@@ -17,6 +14,6 @@ export const getData = (set: any) => {
       },
     })
     .then((resp: any) => {
-      set(randomQuote(resp.data));
+      set(random(resp.data));
     });
 };
