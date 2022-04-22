@@ -1,6 +1,7 @@
+import Home from "./view/Home/index";
 
 function App() {
-  return <main>works</main>;
+  return <Home />;
 }
 
 export default App;
