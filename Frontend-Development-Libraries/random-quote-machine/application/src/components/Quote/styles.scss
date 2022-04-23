@@ -1,6 +1,6 @@
 .quote {
   width: 40rem;
-  height: 20rem;
+  height: 16rem;
   padding-bottom: 1rem;
 
   font-size: 2rem;
@@ -8,4 +8,10 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: left;
+
+  @media (max-width: 620px) {
+    padding:1.5rem;
+    width: 20rem;
+    font-size: 1.7rem;
+  }
 }

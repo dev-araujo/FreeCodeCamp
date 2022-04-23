@@ -6,7 +6,7 @@ function Header({ page }: number | any) {
       <a href="" target="_blank" className="header__page__title">
         Quotes Project
       </a>
-      <p className="header__page__paragraph">{page}</p>
+      <p className="header__page__position">{page}</p>
       <a
         href="https://www.linkedin.com/in/araujocode/"
         target="_blank"
