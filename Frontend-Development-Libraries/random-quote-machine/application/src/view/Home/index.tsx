@@ -4,7 +4,7 @@ import { colors, random } from "../../utils/index";
 import { Quote, Author, Button } from "../../components/index";
 import "./styles.scss";
 
-function Home({ select }: string | any) {
+function Home() {
   const [data, setData] = useState<Quote[] | any>([]);
 
   useEffect(() => {
