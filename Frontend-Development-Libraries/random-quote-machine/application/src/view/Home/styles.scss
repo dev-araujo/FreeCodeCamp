@@ -8,17 +8,16 @@
   align-items: center;
 
   &__content {
-    width: 80%;
-    height: 80%;
+    width: 40rem;
+    height: 30rem;
     padding: 3rem;
     background: white;
     border-radius: 0.7rem;
   }
 
-  &__footer{
-    display:flex;
+  &__footer {
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
   }
 }
