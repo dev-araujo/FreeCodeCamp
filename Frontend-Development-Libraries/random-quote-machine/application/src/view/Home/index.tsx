@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getData, getPhrase } from "./../../services/api";
 import { colors, random, getIndex } from "../../utils/index";
-import { Quote, Author, Button } from "../../components/index";
+import { Quote, Author, Button, Header } from "../../components/index";
 import "./styles.scss";
 
 function Home() {
@@ -16,13 +16,14 @@ function Home() {
   return (
     <div className="container" style={{ background: random(colors) }}>
       <div className="container__content">
-        <Quote phrase={quoteData?.text} page={getIndex(data,quoteData)}/>
+        <Header page={getIndex(data,quoteData)}/>
+        <Quote phrase={quoteData?.text} />
         <div className="container__footer">
           <Author color={random(colors)} byAuthor={quoteData?.author} />
           <Button
             callFunction={() => getPhrase(setQuoteData)}
             borderColor={random(colors)}
-            title={"NEW"}
+            title={"RANDOM"}
           />
         </div>
       </div>

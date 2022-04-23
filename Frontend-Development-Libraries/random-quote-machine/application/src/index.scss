@@ -13,6 +13,11 @@
   padding: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 *::selection {
   background-color: rgba(112, 112, 165, 0.646);
   color: white;

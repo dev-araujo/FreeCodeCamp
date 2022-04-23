@@ -1,0 +1,27 @@
+.header__page {
+  width: 100;
+  margin-bottom: 2rem;
+
+  font-size: 1.3rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__title,
+  &__profile {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Noto serif", sans-serif;
+    color: rgba(49, 49, 49, 0.701);
+    &:hover {
+      color: rgb(26, 26, 26);
+    }
+  }
+
+  &__paragraph {
+    font-weight: 400;
+    font-size: 1.2rem;
+
+    margin-right: 6rem;
+  }
+}
