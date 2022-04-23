@@ -12,7 +12,9 @@ Repositório para os projetos finais do FreeCodeCamp.
  - [**Personal Portfolio Webpage**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/personal-portfolio-webpage)
  
 
-<br/>
+#### _Frontend Development Libraries_
+
+- [**Random Quotes Machine**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Frontend-Development-Libraries/random-quote-machine)
 
 <br/>
 
