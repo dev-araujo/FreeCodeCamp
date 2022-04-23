@@ -3,7 +3,11 @@ import "./styles.scss"
 function Header({ page }: number | any) {
   return (
     <div className="header__page">
-      <a href="" target="_blank" className="header__page__title">
+      <a
+        href="https://github.com/dev-araujo/FreeCodeCamp/tree/main/Frontend-Development-Libraries/random-quote-machine"
+        target="_blank"
+        className="header__page__title"
+      >
         Quotes Project
       </a>
       <p className="header__page__position">{page}</p>
