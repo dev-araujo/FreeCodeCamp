@@ -8,4 +8,28 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: left;
+
+  &__page {
+    width: 100;
+    margin-bottom: 2rem;
+
+    font-size: 1.3rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+      font-weight: 500;
+    }
+
+    &__paragraph {
+      font-weight: 400;
+      font-size: 1.2rem;
+
+      margin-right: 6rem;
+    }
+    &__profile {
+      font-weight: 500;
+    }
+  }
 }
