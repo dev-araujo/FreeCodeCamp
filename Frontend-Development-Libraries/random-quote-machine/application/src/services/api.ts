@@ -3,8 +3,6 @@ import { random } from "../utils/random";
 
 const BASE_URL: string = "https://type.fit/api/quotes";
 
-
-
 export const getData = (set: any) => {
   axios
     .get(BASE_URL, {

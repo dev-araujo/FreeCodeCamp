@@ -1,5 +1,5 @@
 import "./styles.scss";
-function PhraseAuthor({color, byAuthor }: String | any) {
+function Author({color, byAuthor }: String | any) {
   return (
     <section className="card">
       <div className="card__letter" style={{ background: color }}>
@@ -12,4 +12,4 @@ function PhraseAuthor({color, byAuthor }: String | any) {
   );
 }
 
-export default PhraseAuthor;
+export default Author;

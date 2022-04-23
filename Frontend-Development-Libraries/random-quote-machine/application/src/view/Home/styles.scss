@@ -14,4 +14,11 @@
     background: white;
     border-radius: 0.7rem;
   }
+
+  &__footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+  }
 }

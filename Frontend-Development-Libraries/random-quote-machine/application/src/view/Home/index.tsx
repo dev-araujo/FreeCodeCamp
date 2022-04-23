@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getData } from "./../../services/api";
 import { colors, random } from "../../utils/index";
-import { Quote, PhraseAuthor } from "../../components/index";
+import { Quote, Author, Button } from "../../components/index";
 import "./styles.scss";
 
 function Home({ select }: string | any) {
@@ -15,8 +15,14 @@ function Home({ select }: string | any) {
     <div className="container" style={{ background: random(colors) }}>
       <div className="container__content">
         <Quote phrase={data?.text} />
-        <PhraseAuthor color={random(colors)} byAuthor={data?.author} />
-        <button onClick={() => getData(setData)}>change</button>
+        <div className="container__footer">
+          <Author color={random(colors)} byAuthor={data?.author} />
+          <Button
+            callFunction={() => getData(setData)}
+            borderColor={random(colors)}
+            title={"NEW"}
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,6 @@
-import PhraseAuthor from "./PhraseAuthor";
+import Author from "./Author";
 import Quote from "./Quote";
+import Button from './Button/index';
 
-export { Quote, PhraseAuthor };
+
+export { Quote, Author, Button };
