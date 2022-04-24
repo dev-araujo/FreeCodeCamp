@@ -10,8 +10,10 @@
   text-align: left;
 
   @media (max-width: 620px) {
-    padding:1.5rem;
+    padding: 1.5rem;
+    margin-bottom:2rem;
     width: 20rem;
-    font-size: 1.7rem;
+
+    font-size: 1.5rem;
   }
 }

@@ -1,6 +1,6 @@
 .container {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   width: 99vw;
   height: 100vh;
 
@@ -34,19 +34,10 @@
     padding: 1.5rem;
 
     @media (max-width: 620px) {
-      display: block;
-
-      margin-top: 4rem;
-
-      section {
-        position: fixed;
-        bottom: 10rem;
-      }
-
       button {
         position: fixed;
-        right: 5px;
-        bottom: 10rem;
+        right: 0;
+        bottom: 0;
       }
     }
   }
