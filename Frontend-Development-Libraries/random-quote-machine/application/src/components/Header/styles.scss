@@ -1,11 +1,14 @@
 .header__page {
   width: 100;
   margin-bottom: 2rem;
-  padding: 1.5rem;
   font-size: 1.3rem;
 
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 620px) {
+   padding:1.5rem;
+  }
 
   &__title,
   &__profile {
@@ -26,7 +29,7 @@
 
     @media (max-width: 620px) {
       margin-top: 0.2rem;
-      margin-right:0;
+      margin-right: 0;
     }
   }
 }
