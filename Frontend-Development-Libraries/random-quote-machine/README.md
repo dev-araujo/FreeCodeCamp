@@ -15,8 +15,8 @@ Esse é um dos testes finais do curso de **Front End Development Libraries** do 
 ## 🎨 Resultado
 - O resultado pode ser conferido aqui: [**Repl.it**](https://random-quotes.dev-araujo.repl.co/)
 
-![random-quotes2](https://user-images.githubusercontent.com/97068163/164915540-0284a648-9d1e-43e8-ac69-a9c84f6ee24f.gif)
 
+![image](https://github.com/dev-araujo/FreeCodeCamp/assets/97068163/685e3cbf-89cd-4748-9d96-a71fe1384629)
 
 
 
