@@ -5,13 +5,12 @@ Repositório para os projetos finais do FreeCodeCamp.
 
 #### _Responsive Web Design_
   
- - [**Product Landing Page**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/product-landing-page)
- - [**Technical Documentation Page**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/technical-documentation-page)
- - [**Survey-Form**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/survey-form)
- - [**Tribute Page**](https://github.com/dev-araujo/FreeCodeCamp/blob/main/Responsive-Web-Design/tribute-page/) 
- - [**Personal Portfolio Webpage**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Responsive-Web-Design/personal-portfolio-webpage)
- 
-
+  - [**Product Landing Page**](https://github.com/dev-araujo/landing-page)
+  - [**Technical Documentation Page**](https://github.com/dev-araujo/techinical-documentation)
+  - [**Survey Form**](https://github.com/dev-araujo/survey-form)
+  - [**Tribute Page - Hermann Hesse**](https://github.com/dev-araujo/tribute-page)
+  - [**Personal Portfolio Webpage**](https://github.com/dev-araujo/portfolio-vanilla)
+  
 #### _Frontend Development Libraries_
 
 - [**Random Quotes Machine**](https://github.com/dev-araujo/FreeCodeCamp/tree/main/Frontend-Development-Libraries/random-quote-machine)
